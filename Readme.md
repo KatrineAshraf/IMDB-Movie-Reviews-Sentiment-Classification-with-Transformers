@@ -2,21 +2,23 @@
 
 > This project was carried out by Anaconda environment with python 3.9 and [Weights & Biases (WandB)](https://wandb.ai/site) API support.
 
-## Project Goal:
+## Project:
 - This is a small project of movie reviews classification using various Transformers from HuggingFace. 
-- I used Trainer API to train with pytorch.
-- I used BERT, Distil-BERT, RoBERTa, and Electra all of Sequence Classification Models.
-- All necessary plots are generated in the notebook as well as observation in the `FINAL EVALUATION` section.
+- I used HuggingFace's Trainer API to train with PyTorch.
+- I used BERT, Distil-BERT, RoBERTa, and Electra Sequence Classification Models.
+- All necessary plots and the observations are found in the `FINAL EVALUATION` section inside the notebook.
 
 ## Dataset:
 - I used [IMDB Movie Review Dataset of 50k review](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) from kaggle.
-- Where every row have a review and its sentiment of `positive` and `negative` reviews.
+- Every row have a review and its sentiment of `positive` or `negative`.
 
 <hr>
 
 >[!IMPORTANT]
-> - To run the notebook, you need to have Anaconda installed (preferrably with CUDA Toolkit and compatible CuDNN).
+> - To run the notebook, you need to have Anaconda installed (preferrably with CUDA Toolkit and compatible CuDNN to run on local GPU) Or you can simply choose to work with Google Colab.
+>   - My GPU is `NVIDIA GTX 1660 Ti`
 > - When running for the first time, you will need to run the commands underneath `CREATE CONDA ENVIRONMENT` section to have the same working environment as me.
+>   - Simply Skip this step if working with colab. 
 > - You will also need to run the commands underneath `INSTALLING DATA` section to install the data from kaggle. There's no need to run them again unless they are not stored locally (in cases like working in colab).
 
 </br>
