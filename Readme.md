@@ -15,6 +15,8 @@
 <hr>
 
 >[!IMPORTANT]
+>>Because I used Transformers, it would've been better to train the whole dataset; the larger the trained data, the more it's likely for the model to overfit.
+>However, due to the limitations of the resource available, the process was cut down to choosing very small section from the data.
 > - To run the notebook, you need to have Anaconda installed (preferrably with CUDA Toolkit and compatible CuDNN to run on local GPU) Or you can simply choose to work with Google Colab.
 >   - My GPU is `NVIDIA GTX 1660 Ti`
 > - When running for the first time, you will need to run the commands underneath `CREATE CONDA ENVIRONMENT` section to have the same working environment as me.
@@ -24,13 +26,14 @@
 </br>
 
 >[!TIP]
-> API KEY to WandB are stored as environment variables, so you should replace them with your own API KEY if needed. Or simply check the plots [here](https://wandb.ai/SoloWork/Movie%20Review%20Sentiment%20Classification%20with%20Tranformers?nw=nwuserkatherineashraf) if you don't intend to train.
+> API KEY to WandB are stored as environment variables, so you should replace them with your own API KEY if needed. Or simply check the plot unified plot in the image below if you don't intend to train.
 
  </br>
 
 >[!CAUTION]
 > - If you decided to not run the conda commands within same notebook or project folder (but in anaconda prompt, for example), you need to copy the `env.yml` full path in the command.
 
-## Sneak A Peak:
+## Results:
 ![Training_and_Evaluation_Loss_For_All_Transformers](https://github.com/user-attachments/assets/c186b800-fee6-4f33-9109-7193353cc478)
+
 
