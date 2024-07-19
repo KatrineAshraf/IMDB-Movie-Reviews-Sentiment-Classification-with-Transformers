@@ -1,4 +1,8 @@
 # <img src=https://cdn-icons-png.flaticon.com/512/4221/4221412.png height=70 width=80> Movie Review Sentiment Analysis
+# RNN UPDATE:
+For a better experience, the data was finetuned on a Bidirectional LSTM Model six times with different settings, found in both the [notebook]() and the [Weights and Biases website](https://wandb.ai/SoloWork/Movie%20Review%20Sentiment%20Classification%20with%20Tranformers/).
+
+---
 
 > This project was carried out by Anaconda environment with python 3.9 and [Weights & Biases (WandB)](https://wandb.ai/site) API support.
 
